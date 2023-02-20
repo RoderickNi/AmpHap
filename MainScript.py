@@ -22,7 +22,7 @@ for i in range(len(sys.argv)):
 print("======Step_1 QC======")
 os.system(f'''
 mkdir A_QC
-fastp --in1 {fq1} --in2 {fq2} --out1 ./A_QC/clean_1.fq --out2 ./A_QC/clean_2.fq --qualified_quality_phred 20 --unqualified_percent_limit 0 --n_base_limit 1 --correction --thread {N}
+fastp --in1 {fq1} --in2 {fq2} --out1 ./A_QC/clean_1.fq --out2 ./A_QC/clean_2.fq --qualified_quality_phred 25 --unqualified_percent_limit 0 --n_base_limit 1 --correction --thread {N}
 mv fastp.html ./A_QC/fastp.html
 mv fastp.json ./A_QC/fastp.json
 mkdir ./A_QC/statistic
