@@ -2,7 +2,8 @@
 A python script for analysing NGS-based(illumine platform) amplicon sequencing result 
 
 ## Usage
-python MainScript.py --RawFq1 Reads1.fq \
+python MainScript.py     
+--RawFq1 Reads1.fq \
                      --RawFq2 Reads2.fq \
                      --Primers Primer.tab \ # Primer and Samp_Size information    
                      --ReadType (string) \ # PE150 or PE250 (default: PE250)     
