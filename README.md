@@ -8,6 +8,9 @@ FLASH v1.2.11 (https://github.com/dstreett/FLASH2)
 seqtk v1.3-r106 (https://github.com/lh3/seqtk)    
 fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)    
 
+## Installation
+
+
 
 ## Usage
 python MainScript.py     
