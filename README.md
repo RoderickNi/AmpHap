@@ -1,4 +1,4 @@
-# Amplicon_Analyzer
+# AmpHap
 A python script for analysing NGS-based(illumine platform) amplicon sequencing result 
 
 ## Usage
