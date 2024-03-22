@@ -20,3 +20,6 @@ python MainScript.py
                      --Regulation (int) \ # Increase or decrease the filtering threshold based on 1/2N (N:Sample Size)      
                      --CPU (int)\ # Number of processors used      
                      
+
+## Program execution flow
+![image](Program execution flow.tif)
