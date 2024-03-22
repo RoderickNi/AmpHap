@@ -3,10 +3,10 @@ AmpHap (Amplicons to Haplotypes) is a Python script designed for Linux-compatibl
 
 
 ## Dependencies
-fastp v0.23.2 (https://github.com/OpenGene/fastp)
-FLASH v1.2.11 (https://github.com/dstreett/FLASH2)
-seqtk v1.3-r106 (https://github.com/lh3/seqtk)
-fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)
+fastp v0.23.2 (https://github.com/OpenGene/fastp)    
+FLASH v1.2.11 (https://github.com/dstreett/FLASH2)    
+seqtk v1.3-r106 (https://github.com/lh3/seqtk)    
+fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)    
 
 
 ## Usage
