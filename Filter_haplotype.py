@@ -42,16 +42,12 @@ if __name__ == '__main__':
                 fasta=open(os.path.join(DIR,file),'r').read().split('\n')
                 while '' in fasta:
                     fasta.remove('')
-
-                
                 Total=0
                 for i in range(len(fasta)):
                     if r'>' in fasta[i]:     
                         Total+=int(fasta[i].split('-')[1])   # 先计算每个种群的有效测序深度
-                
                 MinCount=Total*element[1]  # 再计算最小频数
                 print(f'--->The count of Haplotype is greater than {round(MinCount,0)}')
-                
                 write_in = open(os.path.join(OTPT,file).replace('.fasta','_filter.fasta'),'a',encoding='utf-8')
                 for i in range(len(fasta)):
                     if r'>' in fasta[i]:
