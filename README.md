@@ -22,4 +22,4 @@ python MainScript.py
                      
 
 ## Program execution flow
-![image](Program execution flow.tif)
+![image]([Program execution flow.tif](https://github.com/RoderickNi/AmpHap/blob/main/Program%20execution%20flow.tif)https://github.com/RoderickNi/AmpHap/blob/main/Program%20execution%20flow.tif)
