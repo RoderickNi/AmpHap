@@ -22,4 +22,6 @@ python MainScript.py
                      
 
 ## Program execution flow
-![image]([Program execution flow.tif](https://github.com/RoderickNi/AmpHap/blob/main/Program%20execution%20flow.tif)https://github.com/RoderickNi/AmpHap/blob/main/Program%20execution%20flow.tif)
+![image execution flow](https://github.com/RoderickNi/AmpHap/blob/main/Program_execution_flow.png)
+
+
