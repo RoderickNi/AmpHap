@@ -8,6 +8,9 @@ FLASH v1.2.11 (https://github.com/dstreett/FLASH2)
 seqtk v1.3-r106 (https://github.com/lh3/seqtk)    
 fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)    
 
+- Program execution flow   
+![image execution flow](https://github.com/RoderickNi/AmpHap/blob/main/Program_execution_flow.png)
+
 ## Installation
 - Conda environment    
 ```
@@ -17,26 +20,23 @@ conda install fastp flash seqtk fastx_toolkit
 ```
 - Get AmpHap
 ```
-
+git clone https://github.com/RoderickNi/AmpHap.git
 ```
-
 
 ## Usage
 ```
 python AmpHapMain.py    
---RawFq1 Reads1.fq \
---RawFq2 Reads2.fq \
+--RawFq1 Reads1.fq \ # Reads-2.fq
+--RawFq2 Reads2.fq \ # Reads_1.fq
 --Primers Primer.tab \ # Primer and Samp_Size information    
 --ReadType (string) \ # PE150 or PE250 (default: PE250)     
 --SeqLen (int) \ # Mean Length of Amplicon      
 --Bias (int) \ # Amplicon length variation permitted      
 --Regulation (int) \ # Increase or decrease the filtering threshold based on 1/2N (N:Sample Size)      
 --CPU (int)\ # Number of processors used
-
 ```
                      
 
-## Program execution flow
-![image execution flow](https://github.com/RoderickNi/AmpHap/blob/main/Program_execution_flow.png)
+
 
 
