@@ -9,11 +9,20 @@ seqtk v1.3-r106 (https://github.com/lh3/seqtk)
 fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)    
 
 ## Installation
+- Conda environment    
+'''
+conda create -n AmpHap python=3.10  # python version 3.6+
+conda acitvate AmpHap
+conda install fastp flash seqtk fastx_toolkit
+'''
+- Get AmpHap
+'''
 
+'''
 
 
 ## Usage
-python MainScript.py     
+python AmpHapMain.py    
 --RawFq1 Reads1.fq \
                      --RawFq2 Reads2.fq \
                      --Primers Primer.tab \ # Primer and Samp_Size information    
