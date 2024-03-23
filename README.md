@@ -10,15 +10,15 @@ fastx_toolkit v0.0.14 (http://hannonlab.cshl.edu/fastx_toolkit/)
 
 ## Installation
 - Conda environment    
-'''
+```
 conda create -n AmpHap python=3.10  # python version 3.6+
 conda acitvate AmpHap
 conda install fastp flash seqtk fastx_toolkit
-'''
+```
 - Get AmpHap
-'''
+```
 
-'''
+```
 
 
 ## Usage
